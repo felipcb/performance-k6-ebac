@@ -1,0 +1,24 @@
+{
+  "name": "9---performance-k6",
+  "version": "1.0.0",
+  "description": "subir a api (na pasta do \"package.json\")\r     npm run start",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run k6-tests/simulations/user.test.js"
+  },
+  "author": "felipebarreto",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@types/k6": "^1.0.2",
+    "babel-loader": "^10.0.0",
+    "core-js": "^3.42.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}

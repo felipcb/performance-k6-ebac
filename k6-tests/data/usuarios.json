@@ -1,0 +1,15 @@
+{
+    "usuarioOK": {
+        "user": "admin",
+        "pass": "admin"
+    },
+    "customers": {
+        "address": {
+            "id": "1"
+        },
+        "email": "mario@gmail.com",
+        "firstName": "Mario",
+        "lastName": "Bross",
+        "phone": "9889-8989"
+    }
+}
